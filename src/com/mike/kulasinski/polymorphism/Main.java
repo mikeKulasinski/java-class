@@ -1,4 +1,4 @@
-package com.mike.kulasinski.polimorfizm;
+package com.mike.kulasinski.polymorphism;
 
 public class Main {
     public static void main(String[] args) {

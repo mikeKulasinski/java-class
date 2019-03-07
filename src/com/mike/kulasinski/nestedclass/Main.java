@@ -10,8 +10,8 @@ public class Main {
     }
 
     private static void tworzymyInstancjeInnerClass() {
-        OuterClass2.InnerClass innerClass = new OuterClass2.InnerClass(); // ERROR tak nie da sie stworzyc instancji
-        // musimy posiadac referencje do classy OuterClass2
+//        OuterClass2.InnerClass innerClass = new OuterClass2.InnerClass(); // ERROR tak nie da sie stworzyc instancji
+//        musimy posiadac referencje do classy OuterClass2
         OuterClass2 outerClass2 = new OuterClass2();
         OuterClass2.InnerClass innerClass1 = outerClass2.new InnerClass(); // OK
     }

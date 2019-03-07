@@ -17,9 +17,8 @@ public class OuterClass2 {
             OuterClass2.this.x = 120; // OK takie same jak powyzej z pelna referencja w razie kolizji nazw pol
         }
 
-        public static void test() { // ERROR nie ma static w inner classes!
-
-        }
+//        public static void test() { // ERROR nie ma static w inner classes!
+//        }
 
     }
 }
